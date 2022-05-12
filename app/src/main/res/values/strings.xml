@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Golf Courses</string>
+    <string name="service_key">AIzaSyBhoCFsG_hMaeApKgFAJXWSNsFUBeWTxxY</string>
+    <string name="select_places_hint">Enter your current location</string>
+    <string name="select_distance_title">Radius, km</string>
+    <string name="location_not_enabled">Location detection is not enabled. You should open settings to enable geolocation</string>
+    <string name="open_settings">Open settings</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="geodata_unavailable_message">Geo data is unavailable. Please, try later</string>
+    <string name="internet_unavailable_message_1">Please, check your internet connection</string>
+    <string name="internet_unavailable_message_2">Can\'t get info about your place. Please, check your internet connection</string>
+</resources>

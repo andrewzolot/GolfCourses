@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_gravity="end"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_cross_grey" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="TextView"
+                android:layout_gravity="start|center_vertical"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/cityTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_enterprise"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/streetTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_maps"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/descTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_signal"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/holesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_golf"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/artTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_graffiti"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/restrTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_padlock"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/plzTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_post_office"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/telTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_customer_service"
+                android:autoLink="phone"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/faxTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_fax"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/webTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_search_engine"
+                android:autoLink="web"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+
+            <TextView
+                android:id="@+id/emailTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableStart="@drawable/ic_email"
+                android:autoLink="email"
+                android:drawablePadding="@dimen/dialog_item_drawable_padding"
+                android:layout_margin="@dimen/dialog_item_margin"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

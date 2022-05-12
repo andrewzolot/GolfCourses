@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_icon_margin">15dp</dimen>
+    <dimen name="dialog_item_margin">5dp</dimen>
+    <dimen name="dialog_item_drawable_padding">5dp</dimen>
+    <dimen name="seekbar_bottom_margin">5dp</dimen>
+    <dimen name="submit_button_corner_radius">50dp</dimen>
+    <dimen name="submit_button_spinning_bar_width">4dp</dimen>
+    <dimen name="zoom_button_margin">10dp</dimen>
+    <dimen name="zoom_button_size">48dp</dimen>
+</resources>
