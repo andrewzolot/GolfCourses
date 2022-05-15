@@ -63,7 +63,7 @@ class MainActivity :    FragmentActivity(),
     private val REQUEST_LOCATION = 0
     private val TAG = "MainActivity"
 
-
+//new comment
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
